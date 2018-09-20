@@ -51,6 +51,23 @@ paste in CognitoIdentityPoolID into AWS COnfiguration tab in world properties
 Host > Point of interst- look at default camera
 Host > Animate using speech - lipsync and gestures
 Speech > Introspeech
+
+# Tutorial 4
+Amazon Lex
+Custom bot - 5 min, no to agreement
+Intents -> add intent -> name is case sensitive
+Fill in intent phrases (utterances)
+Slot types
+create new slot
+Slot type name
+Restrict to Slot values and Synonyms
+enter synnonyms
+slot type drop down - list of amazon supported slots
+save intent
+change prompt for what you want Lex to say
+add response with text and {} to replace with slot type
+build
+
 # Comments
 State machine highlighting can be better
 Adfd action and Remove is too close. Easy to misclick
