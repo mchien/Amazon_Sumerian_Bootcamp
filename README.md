@@ -81,3 +81,4 @@ State machine highlighting can be better
 Adfd action and Remove is too close. Easy to misclick
 can you interrupt gestures
 can you speed up gestures
+the slot type you started with will stick regardless if you went back to change or not
