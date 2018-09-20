@@ -39,7 +39,7 @@ Drag toggleLights machine from Assets to Drop Behaviour box
 
 https://us-west-2.sumerian.aws/51a5008882514c54a565098f36638e5e.scene
 
-# Tutorial 2
+# Tutorial 3
 CloudFormation - Infrastructure as code
 https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?templateURL=https:%2F%2Fs3.amazonaws.com%2Fsumerian-cfn-templates%2FLexPollyExampleTemplate.yml&stackName=AmazonSumerianLexPollyTutorialStack
 Cognito in aws - manage credentials in identity pool e.g. login flow
@@ -67,6 +67,14 @@ save intent
 change prompt for what you want Lex to say
 add response with text and {} to replace with slot type
 build
+
+New scene/entity
+Add component : dialogue
+Name is name but dev alias is $LASTEST
+send audio, get back lex, sumarian reads text
+add component: speech
+add component: state machine
+
 
 # Comments
 State machine highlighting can be better
