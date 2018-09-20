@@ -39,7 +39,20 @@ Drag toggleLights machine from Assets to Drop Behaviour box
 
 https://us-west-2.sumerian.aws/51a5008882514c54a565098f36638e5e.scene
 
+# Tutorial 2
+CloudFormation - Infrastructure as code
+https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?templateURL=https:%2F%2Fs3.amazonaws.com%2Fsumerian-cfn-templates%2FLexPollyExampleTemplate.yml&stackName=AmazonSumerianLexPollyTutorialStack
+Cognito in aws - manage credentials in identity pool e.g. login flow
+Lex - chatbot, natural text processing services
+Polly - speech services
 
+Create new Speech & Gestures scene
+paste in CognitoIdentityPoolID into AWS COnfiguration tab in world properties
+Host > Point of interst- look at default camera
+Host > Animate using speech - lipsync and gestures
+Speech > Introspeech
 # Comments
 State machine highlighting can be better
 Adfd action and Remove is too close. Easy to misclick
+can you interrupt gestures
+can you speed up gestures
